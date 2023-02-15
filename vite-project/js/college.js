@@ -1,5 +1,42 @@
 const colleges =[
     {
-        name:
-    }
+        name: "MIT",
+        SATmath: [790, 800],
+        SATenglish: [730, 780],
+        ACTcomposite: [35, 36],
+        GPA: "4.0+",
+        AcceptanceRate: "4.1%",
+    },
+    {
+        name: "Harvard University",
+        SATmath: [750, 800],
+        SATenglish: [730, 780],
+        ACTcomposite: [33, 36],
+        GPA: "4.0+",
+        AcceptanceRate: "4%",
+    },
+    {
+        name: "Northeastern University",
+        SATmath: [730, 790],
+        SATenglish: [700, 760],
+        ACTcomposite: [33, 35],
+        GPA: "4.0+",
+        AcceptanceRate: "18.4%",
+    },
+    {
+        name: "Boston University",
+        SATmath: [700, 780],
+        SATenglish: [660, 740],
+        ACTcomposite: [31, 34],
+        GPA: "4.0+",
+        AcceptanceRate: "18.6%",
+    },
+    {
+        name: "Yale",
+        SATmath: [750, 800],
+        SATenglish: [730, 780],
+        ACTcomposite: [33, 35],
+        GPA: "4.0+",
+        AcceptanceRate: "5.3%",
+    },
 ]
