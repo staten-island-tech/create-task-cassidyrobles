@@ -6,6 +6,7 @@ const colleges =[
         ACTcomposite: "35-36",
         GPA: "4.0+",
         AcceptanceRate: "4.1%",
+        img: "https://download.logo.wine/logo/Massachusetts_Institute_of_Technology/Massachusetts_Institute_of_Technology-Logo.wine.png",
     },
     {
         name: "Harvard University",
@@ -14,6 +15,7 @@ const colleges =[
         ACTcomposite: "33-36",
         GPA: "4.0+",
         AcceptanceRate: "4%",
+        img: "https://1000logos.net/wp-content/uploads/2017/02/Harvard-Logo.png",
     },
     {
         name: "Northeastern University",
@@ -22,6 +24,7 @@ const colleges =[
         ACTcomposite: "33-35",
         GPA: "4.0+",
         AcceptanceRate: "18.4%",
+        img:"https://logos-download.com/wp-content/uploads/2019/06/Northeastern_University_Logo_full.png",
     },
     {
         name: "Boston University",
@@ -30,6 +33,7 @@ const colleges =[
         ACTcomposite: "31-34",
         GPA: "4.0+",
         AcceptanceRate: "18.6%",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Boston_University_wordmark.svg/1200px-Boston_University_wordmark.svg.png",
     },
     {
         name: "Yale",
@@ -38,6 +42,7 @@ const colleges =[
         ACTcomposite: "33-35",
         GPA: "4.0+",
         AcceptanceRate: "5.3%",
+        img: "https://logos-world.net/wp-content/uploads/2021/11/Yale-Bulldogs-Logo-1997-2019.png",
     },
     {
         name: "Columbia",
@@ -46,6 +51,7 @@ const colleges =[
         ACTcomposite: "33-35",
         GPA: "4.0+",
         AcceptanceRate: "4.4%",
+        img: "https://assets.stickpng.com/images/62796e6c53c8a73e766a78e2.png",
     },
     {
         name: "New York University",
@@ -54,6 +60,7 @@ const colleges =[
         ACTcomposite: "32-35",
         GPA: "4.0+",
         AcceptanceRate: "13%",
+        img: "https://logos-world.net/wp-content/uploads/2021/09/NYU-Logo.png",
     },
     {
         name: "Georgia Tech",
@@ -62,6 +69,7 @@ const colleges =[
         ACTcomposite: "30-34",
         GPA: "4.0+",
         AcceptanceRate: "16%",
+        img: "https://logos-world.net/wp-content/uploads/2021/08/Georgia-Tech-Emblem.png",
     },
     {
         name: "Cornell",
@@ -70,13 +78,7 @@ const colleges =[
         ACTcomposite: "33-35",
         GPA: "4.0+",
         AcceptanceRate: "8.7%",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cornell_University_seal.svg/2048px-Cornell_University_seal.svg.png",
     },
-    {
-        name: "Columbia",
-        SATmath: "750-800",
-        SATenglish: "720-770",
-        ACTcomposite: "34-35",
-        GPA: "4.0+",
-        AcceptanceRate: "4.1%",
-    },
+    
 ]
