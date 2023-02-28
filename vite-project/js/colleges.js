@@ -1,8 +1,8 @@
 const colleges =[
     {
         name: "MIT",
-        SATmath: "790-800",
-        SATenglish: "730-780",
+        SATmath: "790-800 SAT Math score",
+        SATenglish: "730-780 SAT English score",
         ACTcomposite: "35-36",
         GPA: "4.0+",
         AcceptanceRate: "4.1%",
@@ -10,8 +10,8 @@ const colleges =[
     },
     {
         name: "Harvard University",
-        SATmath: "750-800",
-        SATenglish: "730-780",
+        SATmath: "750-800 SAT Math score",
+        SATenglish: "730-780 SAT English score",
         ACTcomposite: "33-36",
         GPA: "4.0+",
         AcceptanceRate: "4%",
@@ -19,8 +19,8 @@ const colleges =[
     },
     {
         name: "Northeastern University",
-        SATmath: "730-790",
-        SATenglish: "700-760",
+        SATmath: "730-790 SAT Math score",
+        SATenglish: "700-760 SAT English score",
         ACTcomposite: "33-35",
         GPA: "4.0+",
         AcceptanceRate: "18.4%",
@@ -28,8 +28,8 @@ const colleges =[
     },
     {
         name: "Boston University",
-        SATmath: "700-780",
-        SATenglish: "660-740",
+        SATmath: "700-780 SAT Math score",
+        SATenglish: "660-740 SAT English score",
         ACTcomposite: "31-34",
         GPA: "4.0+",
         AcceptanceRate: "18.6%",
@@ -37,8 +37,8 @@ const colleges =[
     },
     {
         name: "Yale",
-        SATmath: "750-800",
-        SATenglish: "730-780",
+        SATmath: "750-800 SAT Math score",
+        SATenglish: "730-780 SAT English score",
         ACTcomposite: "33-35",
         GPA: "4.0+",
         AcceptanceRate: "5.3%",
@@ -46,8 +46,8 @@ const colleges =[
     },
     {
         name: "Columbia",
-        SATmath: "740-800",
-        SATenglish: "720-770",
+        SATmath: "740-800 SAT Math score",
+        SATenglish: "720-770 SAT English score",
         ACTcomposite: "33-35",
         GPA: "4.0+",
         AcceptanceRate: "4.4%",
@@ -55,8 +55,8 @@ const colleges =[
     },
     {
         name: "New York University",
-        SATmath: "750-800",
-        SATenglish: "700-770",
+        SATmath: "750-800 SAT Math score",
+        SATenglish: "700-770 SAT English score",
         ACTcomposite: "32-35",
         GPA: "4.0+",
         AcceptanceRate: "13%",
@@ -64,8 +64,8 @@ const colleges =[
     },
     {
         name: "Georgia Tech",
-        SATmath: "630-730",
-        SATenglish: "630-730",
+        SATmath: "630-730 SAT Math score",
+        SATenglish: "630-730 SAT English score",
         ACTcomposite: "30-34",
         GPA: "4.0+",
         AcceptanceRate: "16%",
@@ -73,8 +73,8 @@ const colleges =[
     },
     {
         name: "Cornell",
-        SATmath: "750-800",
-        SATenglish: "700-760",
+        SATmath: "750-800 SAT Math score",
+        SATenglish: "700-760 SAT English score",
         ACTcomposite: "33-35",
         GPA: "4.0+",
         AcceptanceRate: "8.7%",
@@ -82,3 +82,9 @@ const colleges =[
     },
     
 ]
+
+export {colleges};
+
+
+const usedColleges = []
+export{usedColleges};
