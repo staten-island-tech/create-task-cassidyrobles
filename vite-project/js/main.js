@@ -7,11 +7,14 @@ import{usedColleges} from "./colleges";
 DOMselectors.box.innerHTML = "";
 
 function getData() {
-    
+    DOMselectors.box.innerHTML = "";
         let college = DOMselectors.college.value
         colleges.filter( (el) => el.name == `${college}`)
         .forEach(el => { 
             console.log(el.name);
+            if(!usedColleges.includes(el)){
+                usedColleges.push(el); 
+            }
             DOMselectors.box.insertAdjacentHTML(
                 "beforeend",
                 `<div class="card">
@@ -24,24 +27,24 @@ function getData() {
                 <img class="images" src="${el.img}"/>
                
                 </div>`
-            );
-            usedColleges.push(`${el.name}`)
-            if (usedColleges.includes(`${el.name}`)) {
-                DOMselectors.history.insertAdjacentHTML(
+        )});
+         
+            
+            usedColleges.forEach(el => {
+                console.log(el); 
+                DOMselectors.box.insertAdjacentHTML(
                     "beforeend",
-                    `<div class="card">
+                    `<div class="history">
                     <div class=collegeName">${el.name}</div>
                     <img class="images" src="${el.img}"/>
-                    </div>` )
-                
-            } else {
-                console.log(el.name)
-            }
-        }); 
+                    </div>`
+                ); 
+                })
+        }; 
         
       
     
-    }
+    
        
         
    
